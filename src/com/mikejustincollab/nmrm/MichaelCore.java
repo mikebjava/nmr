@@ -12,7 +12,7 @@ public class MichaelCore {
 	 * Gets called when forge initializes this mod.
 	 */
 	public static void init() {
-
+		String donkey = "testDonkey";
 	}
 
 }
