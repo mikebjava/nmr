@@ -37,7 +37,7 @@ public class JustinCore {
 		jtab = new JCreativeTab("NmrmFood", jItems.moleRatFlesh);
 		
 		jItems.setCreativeTabs();
-		
+		jBlocks.setCreativeTabs();
 		
 		jItemRecipes.loadRecipes();
 		jBlockRecipes.loadRecipes();
