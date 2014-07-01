@@ -14,7 +14,7 @@ public class JItems {
 		registerItems();
 	}
 	private void loadItems() {
-		moleRatFlesh = new ItemFood(1, true).setUnlocalizedName("moleRatFlesh").setTextureName(ModCore.MODID + ":" + moleRatFlesh);
+		moleRatFlesh = new ItemFood(1, true).setUnlocalizedName("moleRatFlesh").setTextureName(ModCore.MODID + ":" + "moleRatFlesh");
 		
 	}
 	private void registerItems() {
