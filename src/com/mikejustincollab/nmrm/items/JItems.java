@@ -13,6 +13,7 @@ public class JItems {
 		loadItems();
 		registerItems();
 	}
+	//yoloswag
 	private void loadItems() {
 		moleRatFlesh = new ItemFood(1, true).setUnlocalizedName("moleRatFlesh").setTextureName(ModCore.MODID + ":" + "moleRatFlesh");
 		
