@@ -1,5 +1,7 @@
 package com.mikejustincollab.nmrm;
 
+import com.mikejustincollab.nmrm.eventhandlers.OreGenerator;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 
@@ -12,8 +14,6 @@ import net.minecraft.block.Block;
 public class MichaelCore
 {
 
-	static Block testBlock = new TestBlock();
-
 	public MichaelCore()
 	{
 		init();
@@ -21,6 +21,6 @@ public class MichaelCore
 
 	private void init()
 	{
-		GameRegistry.registerBlock(testBlock, testBlock.getUnlocalizedName().substring(5));
+		GameRegistry.registerWorldGenerator(new OreGenerator(), 1);
 	}
 }
