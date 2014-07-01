@@ -1,5 +1,8 @@
 package com.mikejustincollab.nmrm;
 
+import com.mikejustincollab.nmrm.items.JItems;
+
+
 /**
  * Justin's personal mod core.
  * 
@@ -7,12 +10,20 @@ package com.mikejustincollab.nmrm;
  * 
  */
 public class JustinCore {
-	public String sayings = "the nsa is watch me1!!!";
 	/**
 	 * Gets called when forge initializes this mod.
 	 */
-	public static void init() {
-
+	public static JItems jItems;
+	public JustinCore() {
+		init();
 	}
-
-}
+	
+	private void init() {
+		jItems = new JItems();
+	}
+	}
+	
+	
+	
+	
+	
