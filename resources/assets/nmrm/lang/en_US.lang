@@ -2,3 +2,5 @@ tile.testBlock.name=Test Block
 item.moleRatFlesh.name=Mole Rat Flesh
 itemGroup.NmrmFood=Nmrm Food
 item.moleRatCooked.name=Cooked Mole Rat Flesh
+item.moleRatEye.name=Mole Rat Eye
+tile.eyeBlock.name=Eye Block

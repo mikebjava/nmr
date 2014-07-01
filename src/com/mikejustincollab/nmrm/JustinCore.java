@@ -40,7 +40,7 @@ public class JustinCore {
 		
 		
 		jItemRecipes.loadRecipes();
-		
+		jBlockRecipes.loadRecipes();
 		
 		
 	}
