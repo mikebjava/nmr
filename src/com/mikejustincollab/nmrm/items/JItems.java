@@ -13,10 +13,13 @@ public class JItems {
 		registerItems();
 	}
 	private void loadItems() {
-		moleRatFlesh = new ItemFood(1, true).setUnlocalizedName("moleRatFlesh").setCreativeTab(JustinCore.jtab);
+		moleRatFlesh = new ItemFood(1, true).setUnlocalizedName("moleRatFlesh");
 		
 	}
 	private void registerItems() {
 		GameRegistry.registerItem(moleRatFlesh, moleRatFlesh.getUnlocalizedName().substring(5));
+	}
+	public void setCreativeTabs() {
+		moleRatFlesh.setCreativeTab(JustinCore.jtab);
 	}
 }

@@ -20,8 +20,9 @@ public class JustinCore {
 	}
 	
 	private void init() {
-		jtab = new JCreativeTab("NmrmFood", jItems.moleRatFlesh);
 		jItems = new JItems();
+		jtab = new JCreativeTab("NmrmFood", jItems.moleRatFlesh);
+		jItems.setCreativeTabs();
 		
 		
 		
