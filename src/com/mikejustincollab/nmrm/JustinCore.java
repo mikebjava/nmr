@@ -7,7 +7,7 @@ package com.mikejustincollab.nmrm;
  * 
  */
 public class JustinCore {
-	public String sayings = "the nsa is watch me";
+	public String sayings = "the nsa is watch me1!!!";
 	/**
 	 * Gets called when forge initializes this mod.
 	 */
