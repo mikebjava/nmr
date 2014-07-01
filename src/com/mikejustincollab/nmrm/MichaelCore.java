@@ -14,7 +14,12 @@ public class MichaelCore
 
 	static Block testBlock = new TestBlock();
 
-	public static void init()
+	public MichaelCore()
+	{
+		init();
+	}
+
+	private void init()
 	{
 		GameRegistry.registerBlock(testBlock, testBlock.getUnlocalizedName().substring(5));
 	}

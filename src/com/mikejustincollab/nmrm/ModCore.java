@@ -12,13 +12,18 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
  * 
  */
 @Mod(modid = ModCore.MODID, version = ModCore.VERSION)
-public class ModCore {
+public class ModCore
+{
 	public static final String MODID = "nmrm";
 	public static final String VERSION = "1.0";
 
+	public static MichaelCore michaelCore;
+	public static JustinCore justinCore;
+
 	@EventHandler
-	public void init(FMLInitializationEvent event) {
-		MichaelCore.init();
-		JustinCore.init();
+	public void init(FMLInitializationEvent event)
+	{
+		michaelCore = new MichaelCore();
+		justinCore = new JustinCore();
 	}
 }
