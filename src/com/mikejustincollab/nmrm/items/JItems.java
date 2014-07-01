@@ -1,6 +1,7 @@
 package com.mikejustincollab.nmrm.items;
 
 import com.mikejustincollab.nmrm.JustinCore;
+import com.mikejustincollab.nmrm.ModCore;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
@@ -13,7 +14,7 @@ public class JItems {
 		registerItems();
 	}
 	private void loadItems() {
-		moleRatFlesh = new ItemFood(1, true).setUnlocalizedName("moleRatFlesh");
+		moleRatFlesh = new ItemFood(1, true).setUnlocalizedName("moleRatFlesh").setTextureName(ModCore.MODID + ":" + moleRatFlesh);
 		
 	}
 	private void registerItems() {
